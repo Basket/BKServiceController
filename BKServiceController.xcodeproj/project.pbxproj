@@ -7,44 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6BEE0A61198715AE00D73B41 /* BKServiceController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6BEE0A60198715AE00D73B41 /* BKServiceController.h */; };
-		6BEE0A63198715AE00D73B41 /* BKServiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE0A62198715AE00D73B41 /* BKServiceController.m */; };
-		6BEE0A7E198715FD00D73B41 /* _BKServiceTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE0A78198715FD00D73B41 /* _BKServiceTreeNode.m */; };
-		6BEE0A7F198715FD00D73B41 /* BKServiceRegistrar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE0A7C198715FD00D73B41 /* BKServiceRegistrar.m */; };
-		6BEE0A80198716AB00D73B41 /* BKService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6BEE0A7D198715FD00D73B41 /* BKService.h */; };
-		6BEE0A81198716AB00D73B41 /* BKServiceRegistrar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6BEE0A7B198715FD00D73B41 /* BKServiceRegistrar.h */; };
+		78D312ED19D6815600DD3604 /* BKServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D312D019D679C400DD3604 /* BKServiceController.swift */; };
+		78D312EF19D6819300DD3604 /* BKServiceTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D312EE19D6819300DD3604 /* BKServiceTreeNode.swift */; };
+		78D312F619D68F8E00DD3604 /* BKService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D312F519D68F8E00DD3604 /* BKService.swift */; };
+		78D3130819D7BC6F00DD3604 /* BKServiceRegistrar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D312F319D68C6B00DD3604 /* BKServiceRegistrar.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		6BEE0A5B198715AE00D73B41 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				6BEE0A80198716AB00D73B41 /* BKService.h in CopyFiles */,
-				6BEE0A61198715AE00D73B41 /* BKServiceController.h in CopyFiles */,
-				6BEE0A81198716AB00D73B41 /* BKServiceRegistrar.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		6BEE0A5D198715AE00D73B41 /* libBKServiceController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBKServiceController.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BEE0A60198715AE00D73B41 /* BKServiceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKServiceController.h; sourceTree = "<group>"; };
-		6BEE0A62198715AE00D73B41 /* BKServiceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKServiceController.m; sourceTree = "<group>"; };
-		6BEE0A77198715FD00D73B41 /* _BKServiceTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _BKServiceTreeNode.h; sourceTree = "<group>"; };
-		6BEE0A78198715FD00D73B41 /* _BKServiceTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _BKServiceTreeNode.m; sourceTree = "<group>"; };
-		6BEE0A79198715FD00D73B41 /* BKServiceController_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKServiceController_Internal.h; sourceTree = "<group>"; };
-		6BEE0A7A198715FD00D73B41 /* BKServiceRegistrar_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKServiceRegistrar_Internal.h; sourceTree = "<group>"; };
-		6BEE0A7B198715FD00D73B41 /* BKServiceRegistrar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKServiceRegistrar.h; sourceTree = "<group>"; };
-		6BEE0A7C198715FD00D73B41 /* BKServiceRegistrar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKServiceRegistrar.m; sourceTree = "<group>"; };
-		6BEE0A7D198715FD00D73B41 /* BKService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKService.h; sourceTree = "<group>"; };
+		78D312D019D679C400DD3604 /* BKServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKServiceController.swift; sourceTree = "<group>"; };
+		78D312D719D67BDB00DD3604 /* BKServiceController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BKServiceController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D312DA19D67BDB00DD3604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78D312EE19D6819300DD3604 /* BKServiceTreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKServiceTreeNode.swift; sourceTree = "<group>"; };
+		78D312F319D68C6B00DD3604 /* BKServiceRegistrar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKServiceRegistrar.swift; sourceTree = "<group>"; };
+		78D312F519D68F8E00DD3604 /* BKService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKService.swift; sourceTree = "<group>"; };
+		78D3130919D7C2B600DD3604 /* BKServiceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKServiceController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6BEE0A5A198715AE00D73B41 /* Frameworks */ = {
+		78D312D319D67BDB00DD3604 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,7 +45,7 @@
 		6BEE0A5E198715AE00D73B41 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6BEE0A5D198715AE00D73B41 /* libBKServiceController.a */,
+				78D312D719D67BDB00DD3604 /* BKServiceController.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,29 +53,45 @@
 		6BEE0A5F198715AE00D73B41 /* BKServiceController */ = {
 			isa = PBXGroup;
 			children = (
-				6BEE0A77198715FD00D73B41 /* _BKServiceTreeNode.h */,
-				6BEE0A78198715FD00D73B41 /* _BKServiceTreeNode.m */,
-				6BEE0A7D198715FD00D73B41 /* BKService.h */,
-				6BEE0A60198715AE00D73B41 /* BKServiceController.h */,
-				6BEE0A62198715AE00D73B41 /* BKServiceController.m */,
-				6BEE0A79198715FD00D73B41 /* BKServiceController_Internal.h */,
-				6BEE0A7B198715FD00D73B41 /* BKServiceRegistrar.h */,
-				6BEE0A7C198715FD00D73B41 /* BKServiceRegistrar.m */,
-				6BEE0A7A198715FD00D73B41 /* BKServiceRegistrar_Internal.h */,
+				78D312D919D67BDB00DD3604 /* Supporting Files */,
+				78D312F519D68F8E00DD3604 /* BKService.swift */,
+				78D312D019D679C400DD3604 /* BKServiceController.swift */,
+				78D312F319D68C6B00DD3604 /* BKServiceRegistrar.swift */,
+				78D312EE19D6819300DD3604 /* BKServiceTreeNode.swift */,
 			);
 			path = BKServiceController;
 			sourceTree = "<group>";
 		};
+		78D312D919D67BDB00DD3604 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78D3130919D7C2B600DD3604 /* BKServiceController.h */,
+				78D312DA19D67BDB00DD3604 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		78D312D419D67BDB00DD3604 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		6BEE0A5C198715AE00D73B41 /* BKServiceController */ = {
+		78D312D619D67BDB00DD3604 /* BKServiceController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6BEE0A71198715AE00D73B41 /* Build configuration list for PBXNativeTarget "BKServiceController" */;
+			buildConfigurationList = 78D312E719D67BDB00DD3604 /* Build configuration list for PBXNativeTarget "BKServiceController" */;
 			buildPhases = (
-				6BEE0A59198715AE00D73B41 /* Sources */,
-				6BEE0A5A198715AE00D73B41 /* Frameworks */,
-				6BEE0A5B198715AE00D73B41 /* CopyFiles */,
+				78D312D219D67BDB00DD3604 /* Sources */,
+				78D312D319D67BDB00DD3604 /* Frameworks */,
+				78D312D419D67BDB00DD3604 /* Headers */,
+				78D312D519D67BDB00DD3604 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -103,8 +99,8 @@
 			);
 			name = BKServiceController;
 			productName = BKServiceController;
-			productReference = 6BEE0A5D198715AE00D73B41 /* libBKServiceController.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 78D312D719D67BDB00DD3604 /* BKServiceController.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -115,8 +111,8 @@
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "650 Industries, Inc.";
 				TargetAttributes = {
-					6BEE0A5C198715AE00D73B41 = {
-						CreatedOnToolsVersion = 6.0;
+					78D312D619D67BDB00DD3604 = {
+						CreatedOnToolsVersion = 6.0.1;
 					};
 				};
 			};
@@ -132,19 +128,30 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6BEE0A5C198715AE00D73B41 /* BKServiceController */,
+				78D312D619D67BDB00DD3604 /* BKServiceController */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		78D312D519D67BDB00DD3604 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		6BEE0A59198715AE00D73B41 /* Sources */ = {
+		78D312D219D67BDB00DD3604 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BEE0A7E198715FD00D73B41 /* _BKServiceTreeNode.m in Sources */,
-				6BEE0A63198715AE00D73B41 /* BKServiceController.m in Sources */,
-				6BEE0A7F198715FD00D73B41 /* BKServiceRegistrar.m in Sources */,
+				78D312F619D68F8E00DD3604 /* BKService.swift in Sources */,
+				78D312ED19D6815600DD3604 /* BKServiceController.swift in Sources */,
+				78D3130819D7BC6F00DD3604 /* BKServiceRegistrar.swift in Sources */,
+				78D312EF19D6819300DD3604 /* BKServiceTreeNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,21 +232,52 @@
 			};
 			name = Release;
 		};
-		6BEE0A72198715AE00D73B41 /* Debug */ = {
+		78D312E819D67BDB00DD3604 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BKServiceController/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = BKServiceController/BKServiceController.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		6BEE0A73198715AE00D73B41 /* Release */ = {
+		78D312E919D67BDB00DD3604 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BKServiceController/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = BKServiceController/BKServiceController.h;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -255,11 +293,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6BEE0A71198715AE00D73B41 /* Build configuration list for PBXNativeTarget "BKServiceController" */ = {
+		78D312E719D67BDB00DD3604 /* Build configuration list for PBXNativeTarget "BKServiceController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6BEE0A72198715AE00D73B41 /* Debug */,
-				6BEE0A73198715AE00D73B41 /* Release */,
+				78D312E819D67BDB00DD3604 /* Debug */,
+				78D312E919D67BDB00DD3604 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
